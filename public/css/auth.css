@@ -1,0 +1,88 @@
+.auth-form {
+    max-width: 450px;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.auth-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.auth-form input[type="name"],
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.auth-form input:focus {
+    border-color: #7b4f2c;
+    outline: none;
+    background-color: #fff;
+}
+
+.auth-form .error {
+    color: #d33;
+    font-size: 0.875rem;
+    margin-top: 0.3rem;
+}
+
+.auth-form .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.auth-form .checkbox-wrapper input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.auth-form .checkbox-wrapper label {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: normal;
+}
+
+.auth-form button[type="submit"] {
+    width: 100%;
+    background-color: #7b4f2c;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.auth-form button[type="submit"]:hover {
+    background-color: #5e3b1f;
+}
+
+.auth-form .text-center {
+    position : absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
